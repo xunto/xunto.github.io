@@ -9,9 +9,9 @@ url: "" # the base hostname & protocol for your site, e.g. https://example.githu
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: Projects
+    - text: Проекты
       url: /blog
-    - text: Contact Me
+    - text: Контакты
       url : /contact
 
 # Edit these details
