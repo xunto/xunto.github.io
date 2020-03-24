@@ -11,8 +11,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 urls:
     - text: Проекты
       url: /blog
-    - text: Контакты
-      url : /contact
 
 # Edit these details
 author_logo: profile.png
