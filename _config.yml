@@ -7,23 +7,12 @@ url: "" # the base hostname & protocol for your site, e.g. https://example.githu
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: About Me
-      url: /about
     - text: Projects
       url: /blog
-#    - text: Gallery
-#      url: /gallery
-#    - text: Shop
-#      url : /shop
     - text: Contact Me
       url : /contact
-#    - text: Styleguide
-#      url: /styleguide
-#    - text: Get Started
-#      url: /get-started
 
 # Edit these details
-
 author_logo: profile.png
 author: Валентин Орлов
 author_bio: Hello, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.
