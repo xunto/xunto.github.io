@@ -7,3 +7,7 @@ blockquote {
     background: whitesmoke;
     border: 1px solid;
 }
+
+.card {
+	border-radius: 0;
+}
