@@ -18,22 +18,21 @@ author: Валентин Орлов
 author_bio: Hello, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.
 author_email: "xunto.orlov@yandex.ru"
 author_location: Россия, Санкт-Петербург
-#author_website_url: "http://johndoe.com"
 
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: РГПУ им. А.И. Герцена
+              company_logo: https://www.herzen.spb.ru/img/logo.png
+              company_url: https://www.herzen.spb.ru/
+              designation: Программист I категории
+              description: Взаимодействие с внешними системами (ФИС ГИА), авторизация пользователей и другие внутренние и внешние проекты университа 
               visibility: true
 
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: https://www.herzen.spb.ru/img/logo.png
+                college_name: РГПУ им. А.И. Герцена
+                college_url: https://www.herzen.spb.ru/
+                college_degree: Институт комьютерных наук и технологического образования, ИНФОРМАТИКА И ВЫЧИСЛИТЕЛЬНАЯ ТЕХНИКА
+                description: Разработка ПО
                 visibility: true
 
 # social links
