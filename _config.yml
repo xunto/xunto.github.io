@@ -32,7 +32,14 @@ author_education_details:
                 college_logo: herzen_logo.png
                 college_url: https://www.herzen.spb.ru/
                 college_degree: ИКНиТО, ИВТ
-                description: Разработка ПО
+                description: Бакалавр, профиль \"разработка ПО\"
+                visibility: true
+                
+              - college_name: РГПУ им. А.И. Герцена
+                college_logo: herzen_logo.png
+                college_url: https://www.herzen.spb.ru/
+                college_degree: ИКНиТО, ПО
+                description: Магистр, \"Корпоративное обучение\"
                 visibility: true
 
 # social links
