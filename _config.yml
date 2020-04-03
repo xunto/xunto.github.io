@@ -21,17 +21,17 @@ author_location: Россия, Санкт-Петербург
 
 author_work_experiences:
             - company_name: РГПУ им. А.И. Герцена
-              company_logo: https://www.herzen.spb.ru/img/logo.png
+              company_logo: herzen_logo.png
               company_url: https://www.herzen.spb.ru/
               designation: Программист I категории
               description: Взаимодействие с внешними системами (ФИС ГИА), авторизация пользователей и другие внутренние и внешние проекты университа 
               visibility: true
 
 author_education_details:
-              - college_logo: https://www.herzen.spb.ru/img/logo.png
-                college_name: РГПУ им. А.И. Герцена
+              - college_name: РГПУ им. А.И. Герцена
+                college_logo: herzen_logo.png
                 college_url: https://www.herzen.spb.ru/
-                college_degree: Институт комьютерных наук и технологического образования, ИНФОРМАТИКА И ВЫЧИСЛИТЕЛЬНАЯ ТЕХНИКА
+                college_degree: ИКНиТО, ИВТ
                 description: Разработка ПО
                 visibility: true
 
