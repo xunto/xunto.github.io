@@ -19,3 +19,6 @@ blockquote {
 #search-icon {
 	color: rgba(255,255,255,0.5) !important;
 }
+.h1, h1 {
+	font-size: 2.1rem !important;
+}
