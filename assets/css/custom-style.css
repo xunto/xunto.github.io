@@ -7,7 +7,15 @@ blockquote {
     background: whitesmoke;
     border: 1px solid;
 }
-
 .card {
 	border-radius: 0 !important;
+}
+.navbar {
+	background: #343a40 !important;
+}
+.navbar-dark .navbar-brand {
+	color: #fed238 !important;
+}
+#search-icon {
+	color: rgba(255,255,255,0.5) !important;
 }
