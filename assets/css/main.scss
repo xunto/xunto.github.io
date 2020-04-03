@@ -6,7 +6,7 @@
 /* @import "devlog"; */
 
 /* variables */
-$body-typeface:'Quicksand', sans-serif;
+$body-typeface: sans-serif;
 $nav-typeface: "Gill sans";
 $mono-typeface: Menlo, Monaco, monospace;
 $text-width: 650px;
@@ -113,7 +113,7 @@ html[data-theme="light"] {
 body {
     background-color: var(--main-background-color) !important;
     color: var(--main-text-color) !important;
-    font-family: 'Quicksand', sans-serif !important;
+    font-family: sans-serif !important;
     font-feature-settings: "kern"on;
     font-size: 1.4rem;
     font-variant-numeric: oldstyle-nums;
