@@ -42,6 +42,9 @@ author_education_details:
                 description: Магистр, "Корпоративное обучение"
                 visibility: true
 
+tag_page_layout: tag
+tag_page_dir: projects/tags
+
 # social links
 #twitter_username: johndoe
 github_username:  xunto
