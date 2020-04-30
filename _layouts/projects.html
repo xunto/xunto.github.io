@@ -20,14 +20,10 @@ layout: default
         <div class="card blog-post col-lg-3">
             <img class="card-img-top" src="{{site.url}}{{site.baseurl}}/assets/img/posts/{{ post.thumbnail }}" alt="{{ post.title }}">
             <div class="card-body center">
-                <!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->
-                <h4 class="card-title">{{ post.title }}</h4>
+				<a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="card-title" style="color: #fff !important;">{{ post.title }}</a>
 
                 <!--<h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>-->
                 <p class="card-text">{{ post.summary }} </p>
-
-                <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-primary btn-lg" style="color: #fff !important;">Read</a>
-                <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
 
             </div>
         </div>
