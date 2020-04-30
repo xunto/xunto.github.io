@@ -11,7 +11,7 @@
         </p>
         <span class="disqus-comment-count" data-disqus-identifier="{{ page.url }}"></span>
         <div class="post-categories">
-            Tags: {% for tag in page.tags %}
+            {% for tag in page.tags %}
             <a href="/{{ site.tag_page_dir }}/{{ tag | slugify: 'pretty' }}/">{{tag}}</a> {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
         </div>
     </div>
