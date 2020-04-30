@@ -10,7 +10,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
     - text: Проекты
-      url: /blog
+      url: /projects
 
 # Edit these details
 author_logo: profile.png
