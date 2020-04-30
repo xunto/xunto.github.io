@@ -12,6 +12,9 @@ urls:
     - text: Проекты
       url: /projects
 
+tag_page_layout: tag
+tag_page_dir: projects/tags
+
 # Edit these details
 author_logo: profile.png
 author: Валентин Орлов
@@ -41,9 +44,6 @@ author_education_details:
                 college_degree: ИКНиТО, ПО
                 description: Магистр, "Корпоративное обучение"
                 visibility: true
-
-tag_page_layout: tag
-tag_page_dir: projects/tags
 
 # social links
 #twitter_username: johndoe
