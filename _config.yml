@@ -135,4 +135,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
+gems:
+  - jekyll/tagging
+
 destination: ./build
