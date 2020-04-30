@@ -10,7 +10,7 @@ layout: default
     <div class="col-lg-12">
         <div class="card">
 	    {% for tag in site.tags %}
-            <a href="/{{ site.tag_page_dir }}/{{ tag | slugify: 'pretty' }}/">{{tag}}</a> {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
+            <a href="/{{ site.tag_page_dir }}/{{ tag }}/">{{tag}}</a> {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
         </div>
     </div>
 </div>
