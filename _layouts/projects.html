@@ -9,10 +9,10 @@ layout: default
 <div class="row">
     <div class="col-lg-12">
         <div class="card">
-	    {% for tag in site.tags %}
-		    {% assign t = tag | first %}
-		    <a href="/{{ site.tag_page_dir }}/{{ t }}/">{{t}}</a> {% unless forloop.last %}&nbsp;{% endunless %}
-	    {% endfor %}
+            <div>
+                {% for tag in site.tags %} {% assign t = tag | first %}
+                <a href="/{{ site.tag_page_dir }}/{{ t }}/">{{t}}</a> {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
+            </div>
         </div>
     </div>
 </div>
@@ -23,7 +23,7 @@ layout: default
         <div class="card blog-post col-lg-3">
             <img class="card-img-top" src="{{site.url}}{{site.baseurl}}/assets/img/posts/{{ post.thumbnail }}" alt="{{ post.title }}">
             <div class="card-body center">
-				<a href="{{ post.url | prepend: site.baseurl }}" class="card-title"><h4>{{ post.title }}</h4></a>
+                <a href="{{ post.url | prepend: site.baseurl }}" class="card-title"><h4>{{ post.title }}</h4></a>
                 <p class="card-text">{{ post.summary }} </p>
             </div>
         </div>
