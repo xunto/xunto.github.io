@@ -12,9 +12,6 @@ urls:
     - text: Проекты
       url: /projects
 
-tag_page_layout: tag
-tag_page_dir: projects/tags
-
 # Edit these details
 author_logo: profile.png
 author: Валентин Орлов
@@ -137,8 +134,5 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
-gems:
-  - jekyll/tagging
 
 destination: ./build
