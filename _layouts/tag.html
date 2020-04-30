@@ -2,10 +2,9 @@
 layout: tag
 ---
 
-<ul>
-  {% for tag in page.tags %}
-    <li>
-      <a href="/{{ site.tag_page_dir }}/{{ tag | slugify: 'pretty' }}/">{{ tag }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<h1>Tagged {{ page.tag }}</h1>
+
+{% assign posts = site.tags[page.tag] %}
+{% for post in posts %}
+{{post.title}}
+{% endfor %}
