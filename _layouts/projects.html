@@ -10,7 +10,8 @@ layout: default
     <div class="col-lg-12">
         <div class="card">
 	    {% for tag in site.tags %}
-            <a href="/{{ site.tag_page_dir }}/{{ tag }}/">{{tag}}</a> {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
+	    {% assign t = tag | first %}
+            <a href="/{{ site.tag_page_dir }}/{{ t }}/">{{t}}</a> {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
         </div>
     </div>
 </div>
