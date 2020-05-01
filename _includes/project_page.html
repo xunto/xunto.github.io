@@ -3,7 +3,7 @@
         <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
         <!--<h4 class="post-meta">{{ page.summary }}</h4>-->
         <p class="post-summary">Опубликовано: 
-            <time datetime="{{ page.date }}" itemprop="datePublished">{{ page.date | date: "%m/%d/%Y" }}</time>
+            <time datetime="{{ page.date }}" itemprop="datePublished">{{ page.date | date: "%d.%m.%Y" }}</time>
         </p>
         <span class="disqus-comment-count" data-disqus-identifier="{{ page.url }}"></span>
         <div class="post-categories">
