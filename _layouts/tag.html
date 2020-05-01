@@ -1,10 +1,33 @@
 ---
-layout: tag
+layout: default
 ---
+<div class="row">
+    <!-- Blog Post Breadcrumbs -->
+    {%- include projects_page_breadcrumb.html -%}
+</div>
 
-<h1>Tagged {{ page.tag }}</h1>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div>
+               {% for tag in site.tags %} {% assign t = tag | first %}
+                <a href="/project_tags/{{ t }}/">{{t}}</a> {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
 
-{% assign posts = site.tags[page.tag] %}
-{% for post in posts %}
-{{post.title}}
-{% endfor %}
+<div class="row">
+    <div class="col-lg-12">
+        {% assign posts = site.tags[page.tag] %}
+        {% for post in posts %}
+        <div class="card blog-post col-lg-3">
+            <img class="card-img-top" src="{{site.url}}{{site.baseurl}}/assets/img/posts/{{ post.thumbnail }}" alt="{{ post.title }}">
+            <div class="card-body center">
+                <a href="{{ post.url | prepend: site.baseurl }}" class="card-title"><h4>{{ post.title }}</h4></a>
+                <p class="card-text">{{ post.summary }} </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
