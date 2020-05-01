@@ -110,7 +110,7 @@ paginate_path: "/projects/page/:num/"
 
 # Shop
 collections:
-  tags:
+  project_tags:
     output: true
  
 # Build settings
