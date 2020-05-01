@@ -110,7 +110,7 @@ paginate_path: "/projects/page/:num/"
 
 # Shop
 collections:
- - products
+ - tags
  
 # Build settings
 theme: devlopr
