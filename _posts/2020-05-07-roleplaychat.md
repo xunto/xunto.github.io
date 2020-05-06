@@ -6,5 +6,3 @@ tags: [java, minecraft, gamedev]
 summary: Библиотека-плагин для чатов на java, спроектированный с расчетом на расширяемость и независимость от игры.
 thumbnail: roleplaychat.png
 ---
-
-This is a sample post
