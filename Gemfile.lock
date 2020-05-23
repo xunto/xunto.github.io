@@ -75,8 +75,6 @@ GEM
       jekyll (>= 3.3, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-tagging (1.1.0)
-      nuggets
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jgd (1.12)
@@ -99,7 +97,6 @@ GEM
       mini_portile2 (~> 2.4.0)
     nokogiri (1.10.8-x64-mingw32)
       mini_portile2 (~> 2.4.0)
-    nuggets (1.6.0)
     octokit (4.16.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -107,7 +104,7 @@ GEM
       forwardable-extended (~> 2.6)
     progressbar (1.10.1)
     public_suffix (4.0.3)
-    puma (4.3.3)
+    puma (4.3.5)
       nio4r (~> 2.0)
     rack (1.6.12)
     rack-jekyll (0.5.0)
@@ -171,7 +168,6 @@ DEPENDENCIES
   jekyll-paginate (~> 1.1.0)
   jekyll-seo-tag (~> 2.6.1)
   jekyll-sitemap (~> 1.4.0)
-  jekyll-tagging
   jgd (~> 1.12)
   kramdown
   puma
