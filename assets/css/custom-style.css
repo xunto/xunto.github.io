@@ -1,0 +1,27 @@
+body{
+    background-color: #111;
+}
+blockquote {
+    margin: 2rem 1rem 1rem;
+    padding: 3px;
+    background: whitesmoke;
+    border: 1px solid;
+}
+.card {
+	border-radius: 0 !important;
+}
+.navbar {
+	background: #343a40 !important;
+}
+.navbar-dark .navbar-brand {
+	color: #fed238 !important;
+}
+#search-icon {
+	color: rgba(255,255,255,0.5) !important;
+}
+.h1, h1 {
+	font-size: 2.1rem !important;
+}
+.card-header {
+  margin: -20px -20px 0 -20px;
+}
